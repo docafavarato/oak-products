@@ -1,14 +1,21 @@
-# oak-products
+<div align="center">
+  <h1>Oak Products</h1>
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/-Spring-6DB33F?logo=spring&style=for-the-badge&logoColor=white"></img>
+<img src="https://camo.githubusercontent.com/ff5bae8b465bd0867d4f1b51360e74b93efc962e62c025001c0af0cdf067d496/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3134333534433f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465">
+</div>
 
 # Apresentação do projeto
-Para cuidar das operações com os Produtos, criei uma API utilizando Spring que é responsável pela inserção, remoção e recuperação dos mesmos. Utilizei o padrão MVC.
+Para cuidar das operações com os Produtos, criei uma API utilizando Spring utilizando um banco de dados em memória e seguindo o padrão MVC.
 
 No frontend, utilizei Flask para gerar templates HTML dinâmicos com base nas ações do usuário (como quando um produto é criado) e HTMX para atualizar a tabela de produtos dinamicamente, sem a necessidade de atualizar a página. Adicionei também filtros de busca por nome e disponibilidade.
+
+O código fonte da API se encontra na pasta `api`, e o código do frontend se encontra na pasta `frontend`.
 
 # Demonstração
 https://github.com/docafavarato/oak-products/assets/98183878/1a2939c8-80c4-49b4-8425-2bfeca31c67a
 
-`/products/orderByPriceAsd`
+`/products/orderByPriceAsc`
 ```json
 [
   {
@@ -41,3 +48,5 @@ https://github.com/docafavarato/oak-products/assets/98183878/1a2939c8-80c4-49b4-
   }
 ]
 ```
+![image](https://github.com/docafavarato/oak-products/assets/98183878/2314ffa4-4253-4820-b198-4027051cb010)
+
